@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./assets/pkt1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main img {
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
